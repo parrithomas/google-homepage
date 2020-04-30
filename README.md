@@ -1,0 +1,1 @@
+First project lesson for The Odin Project. The aim is to recreate the Google Homepage using HTML and CSS.
