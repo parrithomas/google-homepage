@@ -1,4 +1,53 @@
 body{
-    background-color: green;
-    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+    header {
+        font-size: 13px;
+        color: #000;
+        width: 100%;
+        text-decoration: none;
+    }
+
+    header a {
+        text-decoration: none;
+        color: #000;
+        opacity: 0.75;
+    }
+    
+
+    header a:hover {
+        text-decoration: underline;
+    }
+
+    header p {
+        display: inline-block;
+        padding-left: 15px;
+    }
+
+    header .top-menu-left{
+        float: left;
+        width: 50%;
+    }
+
+    header .top-menu-right {
+        float: right;
+        width: 50%;
+    }
+
+/* Main */
+
+main {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 210px;
+    display: block;
+}
+
+input {
+    width: 500px;
+    height: 75px;
+    border-radius: 25%;
 }
